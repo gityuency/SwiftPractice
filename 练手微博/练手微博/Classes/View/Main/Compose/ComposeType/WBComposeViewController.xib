@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WBComposeViewController" customModule="练手微博" customModuleProvider="target">
+            <connections>
+                <outlet property="sendButton" destination="x5N-Ut-Rks" id="25a-Op-GkV"/>
+                <outlet property="textView" destination="Lg2-rf-G05" id="DU1-DY-Tuv"/>
+                <outlet property="titleLabel" destination="fAi-TV-3EQ" id="iDk-XJ-T0C"/>
+                <outlet property="toolBar" destination="a4W-LA-Tck" id="35R-1C-dw3"/>
+                <outlet property="toolBarBottomCons" destination="en6-c2-0l7" id="EIP-5t-LqU"/>
+                <outlet property="view" destination="y1C-Ti-Kjf" id="Rr4-nY-A5o"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="y1C-Ti-Kjf">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4W-LA-Tck">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="2k7-dw-mnh"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem image="compose_mentionbutton_background" id="Ffi-lf-9Lc"/>
+                        <barButtonItem style="plain" id="EMU-xG-xHU">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xHy-fd-nEv">
+                                <rect key="frame" x="50" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="compose_emoticonbutton_background"/>
+                                <state key="highlighted" backgroundImage="compose_emoticonbutton_background_highlighted"/>
+                            </button>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lg2-rf-G05" customClass="WBComposeTextView" customModule="练手微博" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="avy-L9-Sl9"/>
+                    </connections>
+                </textView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Lg2-rf-G05" secondAttribute="trailing" id="BuP-mI-XNb"/>
+                <constraint firstItem="a4W-LA-Tck" firstAttribute="top" secondItem="Lg2-rf-G05" secondAttribute="bottom" id="Iz6-As-IGf"/>
+                <constraint firstAttribute="trailing" secondItem="a4W-LA-Tck" secondAttribute="trailing" id="ZZt-cq-c1X"/>
+                <constraint firstItem="a4W-LA-Tck" firstAttribute="leading" secondItem="y1C-Ti-Kjf" secondAttribute="leading" id="ebD-tg-ANk"/>
+                <constraint firstAttribute="bottom" secondItem="a4W-LA-Tck" secondAttribute="bottom" id="en6-c2-0l7"/>
+                <constraint firstItem="Lg2-rf-G05" firstAttribute="leading" secondItem="y1C-Ti-Kjf" secondAttribute="leading" id="iPZ-wI-Lok"/>
+                <constraint firstItem="Lg2-rf-G05" firstAttribute="top" secondItem="y1C-Ti-Kjf" secondAttribute="top" constant="64" id="oJm-Rc-4xf"/>
+            </constraints>
+            <point key="canvasLocation" x="-167" y="-163"/>
+        </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="x5N-Ut-Rks">
+            <rect key="frame" x="0.0" y="0.0" width="45" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <state key="normal" title="发布" backgroundImage="common_button_orange"/>
+            <state key="disabled" backgroundImage="common_button_white_disable">
+                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            </state>
+            <state key="highlighted" backgroundImage="common_button_orange_highlighted"/>
+            <connections>
+                <action selector="postStatus" destination="-1" eventType="touchUpInside" id="Xmr-rv-q0z"/>
+            </connections>
+            <point key="canvasLocation" x="-480" y="-474"/>
+        </button>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fAi-TV-3EQ">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <attributedString key="attributedText">
+                <fragment>
+                    <string key="content">发微博
+</string>
+                    <attributes>
+                        <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                    </attributes>
+                </fragment>
+                <fragment content=" ">
+                    <attributes>
+                        <font key="NSFont" size="3" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                    </attributes>
+                </fragment>
+                <fragment>
+                    <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                    <attributes>
+                        <font key="NSFont" size="15" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                    </attributes>
+                </fragment>
+                <fragment content="姬友大人">
+                    <attributes>
+                        <color key="NSColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                    </attributes>
+                </fragment>
+            </attributedString>
+            <nil key="highlightedColor"/>
+            <point key="canvasLocation" x="-568" y="-325"/>
+        </label>
+    </objects>
+    <resources>
+        <image name="common_button_orange" width="11" height="35"/>
+        <image name="common_button_orange_highlighted" width="11" height="35"/>
+        <image name="common_button_white_disable" width="11" height="35"/>
+        <image name="compose_emoticonbutton_background" width="24" height="24"/>
+        <image name="compose_emoticonbutton_background_highlighted" width="24" height="24"/>
+        <image name="compose_mentionbutton_background" width="24" height="24"/>
+    </resources>
+</document>

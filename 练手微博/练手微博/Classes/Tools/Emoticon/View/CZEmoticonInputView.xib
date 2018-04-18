@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="hf5-Je-L8m" customClass="CZEmoticonInputView" customModule="练手微博" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="271"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K4j-5c-aSC" userLabel="底部工具栏" customClass="CZEmoticonToolBar" customModule="练手微博" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="231" width="375" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.67907188019999998" blue="0.1111755903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="OR9-j2-Lmq"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="l3m-mj-AW1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="231"/>
+                    <color key="backgroundColor" red="0.31176722690000003" green="1" blue="0.63134035970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="A4c-Pr-b9u" customClass="CZEmoticonLayout" customModule="练手微博" customModuleProvider="target">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="hf5-Je-L8m" id="m0x-mK-fNk"/>
+                        <outlet property="delegate" destination="hf5-Je-L8m" id="e3d-OF-B26"/>
+                    </connections>
+                </collectionView>
+                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="1" translatesAutoresizingMaskIntoConstraints="NO" id="sP4-GZ-icv">
+                    <rect key="frame" x="187.5" y="241" width="0.0" height="0.0"/>
+                    <color key="pageIndicatorTintColor" red="0.50980392159999999" green="0.50980392159999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.98823529409999999" green="0.24313725489999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="0.64776727020000002" green="0.85273813259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="K4j-5c-aSC" secondAttribute="bottom" id="KRv-52-OyZ"/>
+                <constraint firstItem="K4j-5c-aSC" firstAttribute="leading" secondItem="hf5-Je-L8m" secondAttribute="leading" id="L5H-WK-HWE"/>
+                <constraint firstItem="K4j-5c-aSC" firstAttribute="top" secondItem="l3m-mj-AW1" secondAttribute="bottom" id="UTh-Co-gqd"/>
+                <constraint firstAttribute="trailing" secondItem="K4j-5c-aSC" secondAttribute="trailing" id="Vl0-ek-TlC"/>
+                <constraint firstItem="K4j-5c-aSC" firstAttribute="top" secondItem="sP4-GZ-icv" secondAttribute="bottom" constant="-10" id="Zoj-E0-7IW"/>
+                <constraint firstItem="l3m-mj-AW1" firstAttribute="top" secondItem="hf5-Je-L8m" secondAttribute="top" id="bVf-ta-0PJ"/>
+                <constraint firstItem="l3m-mj-AW1" firstAttribute="leading" secondItem="hf5-Je-L8m" secondAttribute="leading" id="lmf-l3-PKr"/>
+                <constraint firstItem="sP4-GZ-icv" firstAttribute="centerX" secondItem="hf5-Je-L8m" secondAttribute="centerX" id="tKa-eY-VaN"/>
+                <constraint firstAttribute="trailing" secondItem="l3m-mj-AW1" secondAttribute="trailing" id="yjU-g5-aN2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="l3m-mj-AW1" id="Vpc-iT-SWb"/>
+                <outlet property="pageControl" destination="sP4-GZ-icv" id="mQt-kr-nTr"/>
+                <outlet property="toolBar" destination="K4j-5c-aSC" id="gbJ-nd-btI"/>
+            </connections>
+            <point key="canvasLocation" x="-431" y="108"/>
+        </view>
+    </objects>
+</document>

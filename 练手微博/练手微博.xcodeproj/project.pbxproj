@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C192E8F1F2598E800377F99 /* FMDB 框架结构图.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C192E8E1F2598E800377F99 /* FMDB 框架结构图.png */; };
+		1C37F1F91F025AAB008F073B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F1F81F025AAB008F073B /* AppDelegate.swift */; };
+		1C37F2001F025AAB008F073B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C37F1FF1F025AAB008F073B /* Assets.xcassets */; };
+		1C37F2151F02648E008F073B /* WBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2141F02648E008F073B /* WBMainViewController.swift */; };
+		1C37F2171F0264D6008F073B /* WBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2161F0264D6008F073B /* WBNavigationController.swift */; };
+		1C37F2191F0264FD008F073B /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2181F0264FD008F073B /* WBBaseViewController.swift */; };
+		1C37F21B1F02665F008F073B /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F21A1F02665F008F073B /* WBHomeViewController.swift */; };
+		1C37F21D1F02667B008F073B /* WBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F21C1F02667B008F073B /* WBMessageViewController.swift */; };
+		1C37F21F1F02668C008F073B /* WBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F21E1F02668C008F073B /* WBDiscoverViewController.swift */; };
+		1C37F2211F026697008F073B /* WBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2201F026697008F073B /* WBProfileViewController.swift */; };
+		1C37F23C1F026841008F073B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2251F026841008F073B /* NSArray+Log.m */; };
+		1C37F23D1F026841008F073B /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2271F026841008F073B /* NSAttributedString+CZAdditon.m */; };
+		1C37F23E1F026841008F073B /* NSObject+CZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2291F026841008F073B /* NSObject+CZRuntime.m */; };
+		1C37F23F1F026841008F073B /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F22B1F026841008F073B /* NSString+CZBase64.m */; };
+		1C37F2401F026841008F073B /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F22D1F026841008F073B /* NSString+CZHash.m */; };
+		1C37F2411F026841008F073B /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F22F1F026841008F073B /* NSString+CZPath.m */; };
+		1C37F2421F026841008F073B /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2311F026841008F073B /* UIButton+CZAddition.m */; };
+		1C37F2431F026841008F073B /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2331F026841008F073B /* UIColor+CZAddition.m */; };
+		1C37F2441F026841008F073B /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2351F026841008F073B /* UILabel+CZAddition.m */; };
+		1C37F2451F026841008F073B /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2371F026841008F073B /* UIScreen+CZAddition.m */; };
+		1C37F2461F026841008F073B /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F2391F026841008F073B /* UIView+CZAddition.m */; };
+		1C37F2471F026841008F073B /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F23B1F026841008F073B /* UIViewController+CZAddition.m */; };
+		1C37F24B1F026A97008F073B /* 创建桥接文件.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1C37F24A1F026A97008F073B /* 创建桥接文件.jpeg */; };
+		1C37F24E1F03464C008F073B /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37F24D1F03464C008F073B /* Bundle+Extension.swift */; };
+		1C7272141F28403C00566A85 /* HMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C7272131F28403C00566A85 /* HMEmoticon.bundle */; };
+		1C7272201F285E1600566A85 /* HMPhotoBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7272171F285E1600566A85 /* HMPhotoBrowserAnimator.m */; };
+		1C7272211F285E1600566A85 /* HMPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7272191F285E1600566A85 /* HMPhotoBrowserController.m */; };
+		1C7272221F285E1600566A85 /* HMPhotoBrowserPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72721B1F285E1600566A85 /* HMPhotoBrowserPhotos.m */; };
+		1C7272231F285E1600566A85 /* HMPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72721D1F285E1600566A85 /* HMPhotoProgressView.m */; };
+		1C7272241F285E1600566A85 /* HMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C72721F1F285E1600566A85 /* HMPhotoViewerController.m */; };
+		1C9A1F1A1F21901300D5265F /* CZEmoticonInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A1F171F21901300D5265F /* CZEmoticonInputView.swift */; };
+		1C9A1F1B1F21901300D5265F /* CZEmoticonInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A1F181F21901300D5265F /* CZEmoticonInputView.xib */; };
+		1C9A1F1C1F21901300D5265F /* CZEmoticonToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A1F191F21901300D5265F /* CZEmoticonToolBar.swift */; };
+		1C9A1F1E1F219AA900D5265F /* 代码拉伸图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A1F1D1F219AA900D5265F /* 代码拉伸图片.png */; };
+		1C9E97451F1E1D9B0043278A /* 关于 TextKit介绍.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E97441F1E1D9B0043278A /* 关于 TextKit介绍.png */; };
+		1C9E974E1F1F26210043278A /* FFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E974D1F1F26210043278A /* FFLabel.swift */; };
+		1C9E97501F1F329E0043278A /* WBWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E974F1F1F329E0043278A /* WBWebViewController.swift */; };
+		1C9E97901F1F4A530043278A /* CZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E978B1F1F4A530043278A /* CZLabel.swift */; };
+		1C9E97911F1F4A530043278A /* WBTextKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E978C1F1F4A530043278A /* WBTextKitViewController.swift */; };
+		1C9E97921F1F4A530043278A /* WBTextKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E978D1F1F4A530043278A /* WBTextKitViewController.xib */; };
+		1C9E97931F1F4A530043278A /* WBWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E978E1F1F4A530043278A /* WBWordViewController.swift */; };
+		1C9E97941F1F4A530043278A /* WBWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E978F1F1F4A530043278A /* WBWordViewController.xib */; };
+		1C9E97961F1F4ABE0043278A /* WBRegularExpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97951F1F4ABE0043278A /* WBRegularExpressionViewController.swift */; };
+		1C9E979C1F1F52980043278A /* WBComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E979B1F1F52980043278A /* WBComposeViewController.xib */; };
+		1C9E979F1F1F62040043278A /* 使用 XIB 创建小控件技巧.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E979D1F1F62040043278A /* 使用 XIB 创建小控件技巧.png */; };
+		1C9E97A01F1F62040043278A /* 使用 TextView 的技巧.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E979E1F1F62040043278A /* 使用 TextView 的技巧.png */; };
+		1C9E97A21F2043AB0043278A /* WBComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E97A11F2043AB0043278A /* WBComposeTextView.swift */; };
+		1C9E97A41F204AC30043278A /* 如何在 XIB 上设置代理.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E97A31F204AC30043278A /* 如何在 XIB 上设置代理.png */; };
+		1CA67E621F0A1531007E6BDF /* WBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA67E611F0A1531007E6BDF /* WBDemoViewController.swift */; };
+		1CA67E641F0A1CAF007E6BDF /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA67E631F0A1CAF007E6BDF /* UIBarButtonItem+Extension.swift */; };
+		1CA67E9D1F0C86BA007E6BDF /* WBVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA67E9C1F0C86BA007E6BDF /* WBVisitorView.swift */; };
+		1CC00C1A1F0CDAC9003E75F7 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC00C191F0CDAC9003E75F7 /* main.json */; };
+		1CD001081F1DE05E003FB84D /* CZEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD001071F1DE05E003FB84D /* CZEmoticonManager.swift */; };
+		1CD0010D1F1DE64E003FB84D /* CZEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0010C1F1DE64E003FB84D /* CZEmoticon.swift */; };
+		1CD0010F1F1DE7ED003FB84D /* CZEmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0010E1F1DE7ED003FB84D /* CZEmoticonPackage.swift */; };
+		1CE3F1F61F21A02800D332AA /* CZEmoticonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3F1F51F21A02800D332AA /* CZEmoticonCell.swift */; };
+		1CE3F1FC1F21A4A800D332AA /* CZEmoticonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3F1FB1F21A4A800D332AA /* CZEmoticonLayout.swift */; };
+		1CE3F2001F21CA2100D332AA /* Swift Unicode 码转换成 emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3F1FF1F21CA2100D332AA /* Swift Unicode 码转换成 emoji.png */; };
+		1CE3F2021F21CA8600D332AA /* OC Unicode 码转换成 emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3F2011F21CA8600D332AA /* OC Unicode 码转换成 emoji.png */; };
+		1CE3F2051F21DF1100D332AA /* WBKeyBoardTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3F2031F21DF1100D332AA /* WBKeyBoardTestViewController.swift */; };
+		1CE3F2061F21DF1100D332AA /* WBKeyBoardTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3F2041F21DF1100D332AA /* WBKeyBoardTestViewController.xib */; };
+		1CE3F2081F21F0FE00D332AA /* CZEmotiocnAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE3F2071F21F0FE00D332AA /* CZEmotiocnAttachment.swift */; };
+		1CE3F20E1F2592B300D332AA /* SQLite 插入语法.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE3F20D1F2592B300D332AA /* SQLite 插入语法.png */; };
+		1CF008681F0DDE1000107D2B /* WBNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008671F0DDE1000107D2B /* WBNetworkManager.swift */; };
+		1CF0086A1F0DEA7100107D2B /* WBNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008691F0DEA7100107D2B /* WBNetworkManager+Extension.swift */; };
+		1CF0086E1F0E0ADC00107D2B /* WBStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0086D1F0E0ADC00107D2B /* WBStatusModel.swift */; };
+		1CF008701F0E101C00107D2B /* WBStatusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0086F1F0E101C00107D2B /* WBStatusListViewModel.swift */; };
+		1CF008721F0E26E400107D2B /* 学习网站.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008711F0E26E400107D2B /* 学习网站.png */; };
+		1CF008751F0F28F100107D2B /* WeiBoCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008741F0F28F100107D2B /* WeiBoCommon.swift */; };
+		1CF008781F0F2B8100107D2B /* WBOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008771F0F2B8100107D2B /* WBOAuthViewController.swift */; };
+		1CF0087A1F0F5C4300107D2B /* 关于 OC 中 URL 可以怎么获取元素.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008791F0F5C4300107D2B /* 关于 OC 中 URL 可以怎么获取元素.png */; };
+		1CF0087D1F0F66FA00107D2B /* WBUserAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0087C1F0F66FA00107D2B /* WBUserAccountModel.swift */; };
+		1CF008801F1351BF00107D2B /* WBTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0087F1F1351BF00107D2B /* WBTitleButton.swift */; };
+		1CF008831F13636B00107D2B /* WBWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008821F13636B00107D2B /* WBWelcomeView.swift */; };
+		1CF008851F13689500107D2B /* WBNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008841F13689500107D2B /* WBNewFeatureView.swift */; };
+		1CF008871F1382E400107D2B /* WBWelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008861F1382E400107D2B /* WBWelcomeView.xib */; };
+		1CF008891F14628E00107D2B /* WBNewFeatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008881F14628E00107D2B /* WBNewFeatureView.xib */; };
+		1CF0088B1F14A76F00107D2B /* 模拟器中常用的性能测试工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF0088A1F14A76F00107D2B /* 模拟器中常用的性能测试工具.png */; };
+		1CF008901F14E6E700107D2B /* WBStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0088F1F14E6E700107D2B /* WBStatusCell.swift */; };
+		1CF008921F14E71700107D2B /* WBStatusNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008911F14E71700107D2B /* WBStatusNormalCell.xib */; };
+		1CF008941F15D3F300107D2B /* WBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008931F15D3F300107D2B /* WBUser.swift */; };
+		1CF008961F15E7CF00107D2B /* WBStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008951F15E7CF00107D2B /* WBStatusViewModel.swift */; };
+		1CF008981F15FF6F00107D2B /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008971F15FF6F00107D2B /* UIImageView+WebImage.swift */; };
+		1CF0089A1F16032E00107D2B /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008991F16032E00107D2B /* UIImage+Extensions.swift */; };
+		1CF0089C1F1613CA00107D2B /* WBStatusToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0089B1F1613CA00107D2B /* WBStatusToolbar.swift */; };
+		1CF008BC1F162D9E00107D2B /* WBStatusPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008BB1F162D9E00107D2B /* WBStatusPictureView.swift */; };
+		1CF008BE1F16333D00107D2B /* WBStatusPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008BD1F16333D00107D2B /* WBStatusPicture.swift */; };
+		1CF008C01F17689F00107D2B /* WBStatusRetweedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008BF1F17689F00107D2B /* WBStatusRetweedCell.xib */; };
+		1CF008C31F189DB000107D2B /* CZRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008C21F189DB000107D2B /* CZRefreshControl.swift */; };
+		1CF008C51F18B53300107D2B /* CZRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008C41F18B53300107D2B /* CZRefreshView.xib */; };
+		1CF008C71F18B77300107D2B /* CZRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008C61F18B77300107D2B /* CZRefreshView.swift */; };
+		1CF008C91F1C4C3F00107D2B /* CZMeituanRefresh.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008C81F1C4C3F00107D2B /* CZMeituanRefresh.xib */; };
+		1CF008CB1F1C4E2500107D2B /* CZMeituanRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008CA1F1C4E2500107D2B /* CZMeituanRefreshView.swift */; };
+		1CF008CF1F1C657B00107D2B /* WBComposeTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008CE1F1C657B00107D2B /* WBComposeTypeView.swift */; };
+		1CF008D11F1C6A0C00107D2B /* WBComposeTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008D01F1C6A0C00107D2B /* WBComposeTypeView.xib */; };
+		1CF008D31F1C7F4000107D2B /* WBComposeTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008D21F1C7F4000107D2B /* WBComposeTypeButton.swift */; };
+		1CF008D51F1C7F7300107D2B /* WBComposeTypeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF008D41F1C7F7300107D2B /* WBComposeTypeButton.xib */; };
+		1CF008D71F1CB19200107D2B /* WBComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008D61F1CB19200107D2B /* WBComposeViewController.swift */; };
+		1CF008D91F1DB1A100107D2B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF008D81F1DB1A100107D2B /* String+Extension.swift */; };
+		1CFBC7331F25C056001CF0E1 /* 数据访问层.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBC7321F25C056001CF0E1 /* 数据访问层.png */; };
+		1CFBC7351F25C0AE001CF0E1 /* WBStatusListDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBC7341F25C0AE001CF0E1 /* WBStatusListDAL.swift */; };
+		1CFBC7391F25D684001CF0E1 /* CZSQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBC7371F25D684001CF0E1 /* CZSQLiteManager.swift */; };
+		1CFBC73A1F25D684001CF0E1 /* status.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBC7381F25D684001CF0E1 /* status.sql */; };
+		1CFBC73C1F25D923001CF0E1 /* SDImage清理缓存图解.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBC73B1F25D923001CF0E1 /* SDImage清理缓存图解.png */; };
+		1CFBC73E1F25DB5D001CF0E1 /* 数据库新增时间字段.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBC73D1F25DB5D001CF0E1 /* 数据库新增时间字段.png */; };
+		1CFBC7401F25DCDA001CF0E1 /* 关于数据库的删除操作习惯.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBC73F1F25DCDA001CF0E1 /* 关于数据库的删除操作习惯.png */; };
+		1CFBC7421F25DF14001CF0E1 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBC7411F25DF14001CF0E1 /* Date+Extensions.swift */; };
+		1CFBC7441F25E61D001CF0E1 /* SQLite数据库的特点.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBC7431F25E61D001CF0E1 /* SQLite数据库的特点.png */; };
+		1CFBC74C1F25F6AE001CF0E1 /* 什么是数据适合做缓存,什么数据不适合做缓存.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBC74B1F25F6AE001CF0E1 /* 什么是数据适合做缓存,什么数据不适合做缓存.png */; };
+		1CFBC74E1F25F99A001CF0E1 /* CZEmotiocnTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBC74D1F25F99A001CF0E1 /* CZEmotiocnTipView.swift */; };
+		75EBA2F1DF5369B592EA53E0 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DE8FED2580F32D749BB3F5 /* Pods_____.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16DE8FED2580F32D749BB3F5 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C192E8E1F2598E800377F99 /* FMDB 框架结构图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FMDB 框架结构图.png"; sourceTree = "<group>"; };
+		1C37F1F51F025AAB008F073B /* 练手微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "练手微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C37F1F81F025AAB008F073B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C37F1FF1F025AAB008F073B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C37F2041F025AAB008F073B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C37F2141F02648E008F073B /* WBMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBMainViewController.swift; sourceTree = "<group>"; };
+		1C37F2161F0264D6008F073B /* WBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNavigationController.swift; sourceTree = "<group>"; };
+		1C37F2181F0264FD008F073B /* WBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
+		1C37F21A1F02665F008F073B /* WBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBHomeViewController.swift; sourceTree = "<group>"; };
+		1C37F21C1F02667B008F073B /* WBMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBMessageViewController.swift; sourceTree = "<group>"; };
+		1C37F21E1F02668C008F073B /* WBDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDiscoverViewController.swift; sourceTree = "<group>"; };
+		1C37F2201F026697008F073B /* WBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBProfileViewController.swift; sourceTree = "<group>"; };
+		1C37F2231F026841008F073B /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		1C37F2241F026841008F073B /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		1C37F2251F026841008F073B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		1C37F2261F026841008F073B /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		1C37F2271F026841008F073B /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		1C37F2281F026841008F073B /* NSObject+CZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZRuntime.h"; sourceTree = "<group>"; };
+		1C37F2291F026841008F073B /* NSObject+CZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZRuntime.m"; sourceTree = "<group>"; };
+		1C37F22A1F026841008F073B /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		1C37F22B1F026841008F073B /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		1C37F22C1F026841008F073B /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		1C37F22D1F026841008F073B /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		1C37F22E1F026841008F073B /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		1C37F22F1F026841008F073B /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		1C37F2301F026841008F073B /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		1C37F2311F026841008F073B /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		1C37F2321F026841008F073B /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		1C37F2331F026841008F073B /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		1C37F2341F026841008F073B /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		1C37F2351F026841008F073B /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		1C37F2361F026841008F073B /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		1C37F2371F026841008F073B /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		1C37F2381F026841008F073B /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		1C37F2391F026841008F073B /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		1C37F23A1F026841008F073B /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		1C37F23B1F026841008F073B /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		1C37F2481F026877008F073B /* Weibo-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibo-Bridge.h"; sourceTree = "<group>"; };
+		1C37F24A1F026A97008F073B /* 创建桥接文件.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "创建桥接文件.jpeg"; sourceTree = "<group>"; };
+		1C37F24D1F03464C008F073B /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		1C7272131F28403C00566A85 /* HMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMEmoticon.bundle; sourceTree = "<group>"; };
+		1C7272161F285E1600566A85 /* HMPhotoBrowserAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserAnimator.h; sourceTree = "<group>"; };
+		1C7272171F285E1600566A85 /* HMPhotoBrowserAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserAnimator.m; sourceTree = "<group>"; };
+		1C7272181F285E1600566A85 /* HMPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserController.h; sourceTree = "<group>"; };
+		1C7272191F285E1600566A85 /* HMPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserController.m; sourceTree = "<group>"; };
+		1C72721A1F285E1600566A85 /* HMPhotoBrowserPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserPhotos.h; sourceTree = "<group>"; };
+		1C72721B1F285E1600566A85 /* HMPhotoBrowserPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserPhotos.m; sourceTree = "<group>"; };
+		1C72721C1F285E1600566A85 /* HMPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoProgressView.h; sourceTree = "<group>"; };
+		1C72721D1F285E1600566A85 /* HMPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoProgressView.m; sourceTree = "<group>"; };
+		1C72721E1F285E1600566A85 /* HMPhotoViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoViewerController.h; sourceTree = "<group>"; };
+		1C72721F1F285E1600566A85 /* HMPhotoViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoViewerController.m; sourceTree = "<group>"; };
+		1C9A1F171F21901300D5265F /* CZEmoticonInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonInputView.swift; sourceTree = "<group>"; };
+		1C9A1F181F21901300D5265F /* CZEmoticonInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZEmoticonInputView.xib; sourceTree = "<group>"; };
+		1C9A1F191F21901300D5265F /* CZEmoticonToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonToolBar.swift; sourceTree = "<group>"; };
+		1C9A1F1D1F219AA900D5265F /* 代码拉伸图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代码拉伸图片.png"; sourceTree = "<group>"; };
+		1C9E97441F1E1D9B0043278A /* 关于 TextKit介绍.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于 TextKit介绍.png"; sourceTree = "<group>"; };
+		1C9E974D1F1F26210043278A /* FFLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLabel.swift; sourceTree = "<group>"; };
+		1C9E974F1F1F329E0043278A /* WBWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWebViewController.swift; sourceTree = "<group>"; };
+		1C9E978B1F1F4A530043278A /* CZLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZLabel.swift; sourceTree = "<group>"; };
+		1C9E978C1F1F4A530043278A /* WBTextKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBTextKitViewController.swift; sourceTree = "<group>"; };
+		1C9E978D1F1F4A530043278A /* WBTextKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBTextKitViewController.xib; sourceTree = "<group>"; };
+		1C9E978E1F1F4A530043278A /* WBWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWordViewController.swift; sourceTree = "<group>"; };
+		1C9E978F1F1F4A530043278A /* WBWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBWordViewController.xib; sourceTree = "<group>"; };
+		1C9E97951F1F4ABE0043278A /* WBRegularExpressionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBRegularExpressionViewController.swift; sourceTree = "<group>"; };
+		1C9E979B1F1F52980043278A /* WBComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBComposeViewController.xib; sourceTree = "<group>"; };
+		1C9E979D1F1F62040043278A /* 使用 XIB 创建小控件技巧.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "使用 XIB 创建小控件技巧.png"; sourceTree = "<group>"; };
+		1C9E979E1F1F62040043278A /* 使用 TextView 的技巧.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "使用 TextView 的技巧.png"; sourceTree = "<group>"; };
+		1C9E97A11F2043AB0043278A /* WBComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBComposeTextView.swift; sourceTree = "<group>"; };
+		1C9E97A31F204AC30043278A /* 如何在 XIB 上设置代理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "如何在 XIB 上设置代理.png"; sourceTree = "<group>"; };
+		1CA67E611F0A1531007E6BDF /* WBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDemoViewController.swift; sourceTree = "<group>"; };
+		1CA67E631F0A1CAF007E6BDF /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		1CA67E9C1F0C86BA007E6BDF /* WBVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBVisitorView.swift; sourceTree = "<group>"; };
+		1CC00C191F0CDAC9003E75F7 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		1CD001071F1DE05E003FB84D /* CZEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonManager.swift; sourceTree = "<group>"; };
+		1CD0010C1F1DE64E003FB84D /* CZEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticon.swift; sourceTree = "<group>"; };
+		1CD0010E1F1DE7ED003FB84D /* CZEmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonPackage.swift; sourceTree = "<group>"; };
+		1CE3F1F51F21A02800D332AA /* CZEmoticonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonCell.swift; sourceTree = "<group>"; };
+		1CE3F1FB1F21A4A800D332AA /* CZEmoticonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmoticonLayout.swift; sourceTree = "<group>"; };
+		1CE3F1FF1F21CA2100D332AA /* Swift Unicode 码转换成 emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swift Unicode 码转换成 emoji.png"; sourceTree = "<group>"; };
+		1CE3F2011F21CA8600D332AA /* OC Unicode 码转换成 emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OC Unicode 码转换成 emoji.png"; sourceTree = "<group>"; };
+		1CE3F2031F21DF1100D332AA /* WBKeyBoardTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBKeyBoardTestViewController.swift; sourceTree = "<group>"; };
+		1CE3F2041F21DF1100D332AA /* WBKeyBoardTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBKeyBoardTestViewController.xib; sourceTree = "<group>"; };
+		1CE3F2071F21F0FE00D332AA /* CZEmotiocnAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmotiocnAttachment.swift; sourceTree = "<group>"; };
+		1CE3F20D1F2592B300D332AA /* SQLite 插入语法.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SQLite 插入语法.png"; sourceTree = "<group>"; };
+		1CF008671F0DDE1000107D2B /* WBNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNetworkManager.swift; sourceTree = "<group>"; };
+		1CF008691F0DEA7100107D2B /* WBNetworkManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WBNetworkManager+Extension.swift"; sourceTree = "<group>"; };
+		1CF0086D1F0E0ADC00107D2B /* WBStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusModel.swift; sourceTree = "<group>"; };
+		1CF0086F1F0E101C00107D2B /* WBStatusListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusListViewModel.swift; sourceTree = "<group>"; };
+		1CF008711F0E26E400107D2B /* 学习网站.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "学习网站.png"; sourceTree = "<group>"; };
+		1CF008741F0F28F100107D2B /* WeiBoCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiBoCommon.swift; sourceTree = "<group>"; };
+		1CF008771F0F2B8100107D2B /* WBOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBOAuthViewController.swift; sourceTree = "<group>"; };
+		1CF008791F0F5C4300107D2B /* 关于 OC 中 URL 可以怎么获取元素.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于 OC 中 URL 可以怎么获取元素.png"; sourceTree = "<group>"; };
+		1CF0087C1F0F66FA00107D2B /* WBUserAccountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBUserAccountModel.swift; sourceTree = "<group>"; };
+		1CF0087F1F1351BF00107D2B /* WBTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBTitleButton.swift; sourceTree = "<group>"; };
+		1CF008821F13636B00107D2B /* WBWelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBWelcomeView.swift; sourceTree = "<group>"; };
+		1CF008841F13689500107D2B /* WBNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNewFeatureView.swift; sourceTree = "<group>"; };
+		1CF008861F1382E400107D2B /* WBWelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBWelcomeView.xib; sourceTree = "<group>"; };
+		1CF008881F14628E00107D2B /* WBNewFeatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBNewFeatureView.xib; sourceTree = "<group>"; };
+		1CF0088A1F14A76F00107D2B /* 模拟器中常用的性能测试工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模拟器中常用的性能测试工具.png"; sourceTree = "<group>"; };
+		1CF0088F1F14E6E700107D2B /* WBStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusCell.swift; sourceTree = "<group>"; };
+		1CF008911F14E71700107D2B /* WBStatusNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBStatusNormalCell.xib; sourceTree = "<group>"; };
+		1CF008931F15D3F300107D2B /* WBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBUser.swift; sourceTree = "<group>"; };
+		1CF008951F15E7CF00107D2B /* WBStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusViewModel.swift; sourceTree = "<group>"; };
+		1CF008971F15FF6F00107D2B /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
+		1CF008991F16032E00107D2B /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		1CF0089B1F1613CA00107D2B /* WBStatusToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusToolbar.swift; sourceTree = "<group>"; };
+		1CF008BB1F162D9E00107D2B /* WBStatusPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusPictureView.swift; sourceTree = "<group>"; };
+		1CF008BD1F16333D00107D2B /* WBStatusPicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusPicture.swift; sourceTree = "<group>"; };
+		1CF008BF1F17689F00107D2B /* WBStatusRetweedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBStatusRetweedCell.xib; sourceTree = "<group>"; };
+		1CF008C21F189DB000107D2B /* CZRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZRefreshControl.swift; sourceTree = "<group>"; };
+		1CF008C41F18B53300107D2B /* CZRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZRefreshView.xib; sourceTree = "<group>"; };
+		1CF008C61F18B77300107D2B /* CZRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZRefreshView.swift; sourceTree = "<group>"; };
+		1CF008C81F1C4C3F00107D2B /* CZMeituanRefresh.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZMeituanRefresh.xib; sourceTree = "<group>"; };
+		1CF008CA1F1C4E2500107D2B /* CZMeituanRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZMeituanRefreshView.swift; sourceTree = "<group>"; };
+		1CF008CE1F1C657B00107D2B /* WBComposeTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBComposeTypeView.swift; sourceTree = "<group>"; };
+		1CF008D01F1C6A0C00107D2B /* WBComposeTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBComposeTypeView.xib; sourceTree = "<group>"; };
+		1CF008D21F1C7F4000107D2B /* WBComposeTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBComposeTypeButton.swift; sourceTree = "<group>"; };
+		1CF008D41F1C7F7300107D2B /* WBComposeTypeButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBComposeTypeButton.xib; sourceTree = "<group>"; };
+		1CF008D61F1CB19200107D2B /* WBComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBComposeViewController.swift; sourceTree = "<group>"; };
+		1CF008D81F1DB1A100107D2B /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1CFBC7321F25C056001CF0E1 /* 数据访问层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "数据访问层.png"; sourceTree = "<group>"; };
+		1CFBC7341F25C0AE001CF0E1 /* WBStatusListDAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBStatusListDAL.swift; sourceTree = "<group>"; };
+		1CFBC7371F25D684001CF0E1 /* CZSQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZSQLiteManager.swift; sourceTree = "<group>"; };
+		1CFBC7381F25D684001CF0E1 /* status.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = status.sql; sourceTree = "<group>"; };
+		1CFBC73B1F25D923001CF0E1 /* SDImage清理缓存图解.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SDImage清理缓存图解.png"; sourceTree = "<group>"; };
+		1CFBC73D1F25DB5D001CF0E1 /* 数据库新增时间字段.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "数据库新增时间字段.png"; sourceTree = "<group>"; };
+		1CFBC73F1F25DCDA001CF0E1 /* 关于数据库的删除操作习惯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于数据库的删除操作习惯.png"; sourceTree = "<group>"; };
+		1CFBC7411F25DF14001CF0E1 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		1CFBC7431F25E61D001CF0E1 /* SQLite数据库的特点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SQLite数据库的特点.png"; sourceTree = "<group>"; };
+		1CFBC74B1F25F6AE001CF0E1 /* 什么是数据适合做缓存,什么数据不适合做缓存.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "什么是数据适合做缓存,什么数据不适合做缓存.png"; sourceTree = "<group>"; };
+		1CFBC74D1F25F99A001CF0E1 /* CZEmotiocnTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZEmotiocnTipView.swift; sourceTree = "<group>"; };
+		316313D90EE94BC3DDD9BF22 /* Pods-练手微博.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-练手微博.debug.xcconfig"; path = "Pods/Target Support Files/Pods-练手微博/Pods-练手微博.debug.xcconfig"; sourceTree = "<group>"; };
+		FA64D680B7DDCBABAF6BEA8F /* Pods-练手微博.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-练手微博.release.xcconfig"; path = "Pods/Target Support Files/Pods-练手微博/Pods-练手微博.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C37F1F21F025AAB008F073B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EBA2F1DF5369B592EA53E0 /* Pods_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13351A17978B4E6DF306269E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16DE8FED2580F32D749BB3F5 /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C37F1EC1F025AAB008F073B = {
+			isa = PBXGroup;
+			children = (
+				1C37F1F71F025AAB008F073B /* 练手微博 */,
+				1C37F1F61F025AAB008F073B /* Products */,
+				F05578ADF3D477138F95CF86 /* Pods */,
+				13351A17978B4E6DF306269E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C37F1F61F025AAB008F073B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F1F51F025AAB008F073B /* 练手微博.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C37F1F71F025AAB008F073B /* 练手微博 */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F20A1F0263CB008F073B /* Classes */,
+				1C37F2491F026A91008F073B /* MyScreenShot */,
+				1C37F1F81F025AAB008F073B /* AppDelegate.swift */,
+				1C37F2481F026877008F073B /* Weibo-Bridge.h */,
+				1C37F1FF1F025AAB008F073B /* Assets.xcassets */,
+				1C37F2041F025AAB008F073B /* Info.plist */,
+			);
+			path = "练手微博";
+			sourceTree = "<group>";
+		};
+		1C37F20A1F0263CB008F073B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F20D1F0263CB008F073B /* View */,
+				1C37F20B1F0263CB008F073B /* Model(模型) */,
+				1C37F20C1F0263CB008F073B /* Tools(工具) */,
+				1C37F2131F0263CB008F073B /* ViewModel(视图模型) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1C37F20B1F0263CB008F073B /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0086D1F0E0ADC00107D2B /* WBStatusModel.swift */,
+				1CF008BD1F16333D00107D2B /* WBStatusPicture.swift */,
+				1CF008931F15D3F300107D2B /* WBUser.swift */,
+			);
+			name = "Model(模型)";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C37F20C1F0263CB008F073B /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				1C7272151F285E1600566A85 /* PhotoBrowser */,
+				1CFBC7361F25D656001CF0E1 /* SQLite */,
+				1C9E974C1F1F26210043278A /* FFLabel */,
+				1CD001061F1DE001003FB84D /* Emoticon */,
+				1CF008C11F189D9700107D2B /* CZRefresh */,
+				1CF008731F0F28CE00107D2B /* KeyConfig */,
+				1CF008661F0DDDB700107D2B /* Network */,
+				1C37F24C1F034618008F073B /* Extension */,
+				1C37F2221F026841008F073B /* Additions */,
+			);
+			name = "Tools(工具)";
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1C37F20D1F0263CB008F073B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F2101F0263CB008F073B /* Main */,
+				1C37F20E1F0263CB008F073B /* Discover */,
+				1C37F20F1F0263CB008F073B /* Home */,
+				1C37F2111F0263CB008F073B /* Message */,
+				1C37F2121F0263CB008F073B /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C37F20E1F0263CB008F073B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F21E1F02668C008F073B /* WBDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		1C37F20F1F0263CB008F073B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0088E1F14E6BF00107D2B /* StatusCell */,
+				1CF0087E1F13519900107D2B /* TitleButton */,
+				1C37F21A1F02665F008F073B /* WBHomeViewController.swift */,
+				1C9E974F1F1F329E0043278A /* WBWebViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1C37F2101F0263CB008F073B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1CF008CC1F1C64E700107D2B /* Compose(撰写微博) */,
+				1CF008811F13613D00107D2B /* NewFeature */,
+				1CF008761F0F2B6100107D2B /* OAuth */,
+				1CA67E9B1F0C8678007E6BDF /* VisitorView */,
+				1CA67E5D1F0A14FD007E6BDF /* 测试 */,
+				1C37F2141F02648E008F073B /* WBMainViewController.swift */,
+				1C37F2161F0264D6008F073B /* WBNavigationController.swift */,
+				1C37F2181F0264FD008F073B /* WBBaseViewController.swift */,
+				1CC00C191F0CDAC9003E75F7 /* main.json */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1C37F2111F0263CB008F073B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F21C1F02667B008F073B /* WBMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1C37F2121F0263CB008F073B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F2201F026697008F073B /* WBProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1C37F2131F0263CB008F073B /* ViewModel(视图模型) */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0086F1F0E101C00107D2B /* WBStatusListViewModel.swift */,
+				1CF008951F15E7CF00107D2B /* WBStatusViewModel.swift */,
+			);
+			name = "ViewModel(视图模型)";
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1C37F2221F026841008F073B /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F2231F026841008F073B /* CZAdditions.h */,
+				1C37F2241F026841008F073B /* NSArray+Log.h */,
+				1C37F2251F026841008F073B /* NSArray+Log.m */,
+				1C37F2261F026841008F073B /* NSAttributedString+CZAdditon.h */,
+				1C37F2271F026841008F073B /* NSAttributedString+CZAdditon.m */,
+				1C37F2281F026841008F073B /* NSObject+CZRuntime.h */,
+				1C37F2291F026841008F073B /* NSObject+CZRuntime.m */,
+				1C37F22A1F026841008F073B /* NSString+CZBase64.h */,
+				1C37F22B1F026841008F073B /* NSString+CZBase64.m */,
+				1C37F22C1F026841008F073B /* NSString+CZHash.h */,
+				1C37F22D1F026841008F073B /* NSString+CZHash.m */,
+				1C37F22E1F026841008F073B /* NSString+CZPath.h */,
+				1C37F22F1F026841008F073B /* NSString+CZPath.m */,
+				1C37F2301F026841008F073B /* UIButton+CZAddition.h */,
+				1C37F2311F026841008F073B /* UIButton+CZAddition.m */,
+				1C37F2321F026841008F073B /* UIColor+CZAddition.h */,
+				1C37F2331F026841008F073B /* UIColor+CZAddition.m */,
+				1C37F2341F026841008F073B /* UILabel+CZAddition.h */,
+				1C37F2351F026841008F073B /* UILabel+CZAddition.m */,
+				1C37F2361F026841008F073B /* UIScreen+CZAddition.h */,
+				1C37F2371F026841008F073B /* UIScreen+CZAddition.m */,
+				1C37F2381F026841008F073B /* UIView+CZAddition.h */,
+				1C37F2391F026841008F073B /* UIView+CZAddition.m */,
+				1C37F23A1F026841008F073B /* UIViewController+CZAddition.h */,
+				1C37F23B1F026841008F073B /* UIViewController+CZAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		1C37F2491F026A91008F073B /* MyScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBC74B1F25F6AE001CF0E1 /* 什么是数据适合做缓存,什么数据不适合做缓存.png */,
+				1CFBC7431F25E61D001CF0E1 /* SQLite数据库的特点.png */,
+				1CFBC73F1F25DCDA001CF0E1 /* 关于数据库的删除操作习惯.png */,
+				1CFBC73D1F25DB5D001CF0E1 /* 数据库新增时间字段.png */,
+				1CFBC73B1F25D923001CF0E1 /* SDImage清理缓存图解.png */,
+				1CFBC7321F25C056001CF0E1 /* 数据访问层.png */,
+				1C192E8E1F2598E800377F99 /* FMDB 框架结构图.png */,
+				1CE3F20D1F2592B300D332AA /* SQLite 插入语法.png */,
+				1CE3F2011F21CA8600D332AA /* OC Unicode 码转换成 emoji.png */,
+				1CE3F1FF1F21CA2100D332AA /* Swift Unicode 码转换成 emoji.png */,
+				1C9A1F1D1F219AA900D5265F /* 代码拉伸图片.png */,
+				1C9E97A31F204AC30043278A /* 如何在 XIB 上设置代理.png */,
+				1C9E979D1F1F62040043278A /* 使用 XIB 创建小控件技巧.png */,
+				1C9E979E1F1F62040043278A /* 使用 TextView 的技巧.png */,
+				1C9E97441F1E1D9B0043278A /* 关于 TextKit介绍.png */,
+				1CF0088A1F14A76F00107D2B /* 模拟器中常用的性能测试工具.png */,
+				1CF008791F0F5C4300107D2B /* 关于 OC 中 URL 可以怎么获取元素.png */,
+				1C37F24A1F026A97008F073B /* 创建桥接文件.jpeg */,
+				1CF008711F0E26E400107D2B /* 学习网站.png */,
+			);
+			path = MyScreenShot;
+			sourceTree = "<group>";
+		};
+		1C37F24C1F034618008F073B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C37F24D1F03464C008F073B /* Bundle+Extension.swift */,
+				1CA67E631F0A1CAF007E6BDF /* UIBarButtonItem+Extension.swift */,
+				1CF008971F15FF6F00107D2B /* UIImageView+WebImage.swift */,
+				1CF008991F16032E00107D2B /* UIImage+Extensions.swift */,
+				1CF008D81F1DB1A100107D2B /* String+Extension.swift */,
+				1CFBC7411F25DF14001CF0E1 /* Date+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1C7272151F285E1600566A85 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1C7272181F285E1600566A85 /* HMPhotoBrowserController.h */,
+				1C7272191F285E1600566A85 /* HMPhotoBrowserController.m */,
+				1C7272161F285E1600566A85 /* HMPhotoBrowserAnimator.h */,
+				1C7272171F285E1600566A85 /* HMPhotoBrowserAnimator.m */,
+				1C72721A1F285E1600566A85 /* HMPhotoBrowserPhotos.h */,
+				1C72721B1F285E1600566A85 /* HMPhotoBrowserPhotos.m */,
+				1C72721C1F285E1600566A85 /* HMPhotoProgressView.h */,
+				1C72721D1F285E1600566A85 /* HMPhotoProgressView.m */,
+				1C72721E1F285E1600566A85 /* HMPhotoViewerController.h */,
+				1C72721F1F285E1600566A85 /* HMPhotoViewerController.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		1C9A1F161F21901300D5265F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C9A1F171F21901300D5265F /* CZEmoticonInputView.swift */,
+				1C9A1F181F21901300D5265F /* CZEmoticonInputView.xib */,
+				1C9A1F191F21901300D5265F /* CZEmoticonToolBar.swift */,
+				1CE3F1F51F21A02800D332AA /* CZEmoticonCell.swift */,
+				1CFBC74D1F25F99A001CF0E1 /* CZEmotiocnTipView.swift */,
+				1CE3F1FB1F21A4A800D332AA /* CZEmoticonLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C9E974C1F1F26210043278A /* FFLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E974D1F1F26210043278A /* FFLabel.swift */,
+			);
+			path = FFLabel;
+			sourceTree = "<group>";
+		};
+		1C9E978A1F1F49F80043278A /* SkillsViewController(示例代码) */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E978B1F1F4A530043278A /* CZLabel.swift */,
+				1C9E978C1F1F4A530043278A /* WBTextKitViewController.swift */,
+				1C9E978D1F1F4A530043278A /* WBTextKitViewController.xib */,
+				1C9E978E1F1F4A530043278A /* WBWordViewController.swift */,
+				1C9E978F1F1F4A530043278A /* WBWordViewController.xib */,
+				1C9E97951F1F4ABE0043278A /* WBRegularExpressionViewController.swift */,
+				1CE3F2031F21DF1100D332AA /* WBKeyBoardTestViewController.swift */,
+				1CE3F2041F21DF1100D332AA /* WBKeyBoardTestViewController.xib */,
+			);
+			name = "SkillsViewController(示例代码)";
+			path = SkillsViewController;
+			sourceTree = "<group>";
+		};
+		1CA67E5D1F0A14FD007E6BDF /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				1CA67E611F0A1531007E6BDF /* WBDemoViewController.swift */,
+			);
+			path = "测试";
+			sourceTree = "<group>";
+		};
+		1CA67E9B1F0C8678007E6BDF /* VisitorView */ = {
+			isa = PBXGroup;
+			children = (
+				1CA67E9C1F0C86BA007E6BDF /* WBVisitorView.swift */,
+			);
+			path = VisitorView;
+			sourceTree = "<group>";
+		};
+		1CD001061F1DE001003FB84D /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				1CD001071F1DE05E003FB84D /* CZEmoticonManager.swift */,
+				1C7272131F28403C00566A85 /* HMEmoticon.bundle */,
+				1C9A1F161F21901300D5265F /* View */,
+				1CD0010B1F1DE626003FB84D /* Model */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		1CD0010B1F1DE626003FB84D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CD0010C1F1DE64E003FB84D /* CZEmoticon.swift */,
+				1CD0010E1F1DE7ED003FB84D /* CZEmoticonPackage.swift */,
+				1CE3F2071F21F0FE00D332AA /* CZEmotiocnAttachment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF008661F0DDDB700107D2B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0087B1F0F66D900107D2B /* Model */,
+				1CF008671F0DDE1000107D2B /* WBNetworkManager.swift */,
+				1CF008691F0DEA7100107D2B /* WBNetworkManager+Extension.swift */,
+				1CFBC7341F25C0AE001CF0E1 /* WBStatusListDAL.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1CF008731F0F28CE00107D2B /* KeyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				1CF008741F0F28F100107D2B /* WeiBoCommon.swift */,
+			);
+			path = KeyConfig;
+			sourceTree = "<group>";
+		};
+		1CF008761F0F2B6100107D2B /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				1CF008771F0F2B8100107D2B /* WBOAuthViewController.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		1CF0087B1F0F66D900107D2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0087C1F0F66FA00107D2B /* WBUserAccountModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF0087E1F13519900107D2B /* TitleButton */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0087F1F1351BF00107D2B /* WBTitleButton.swift */,
+			);
+			path = TitleButton;
+			sourceTree = "<group>";
+		};
+		1CF008811F13613D00107D2B /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				1CF008821F13636B00107D2B /* WBWelcomeView.swift */,
+				1CF008861F1382E400107D2B /* WBWelcomeView.xib */,
+				1CF008841F13689500107D2B /* WBNewFeatureView.swift */,
+				1CF008881F14628E00107D2B /* WBNewFeatureView.xib */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		1CF0088E1F14E6BF00107D2B /* StatusCell */ = {
+			isa = PBXGroup;
+			children = (
+				1CF0088F1F14E6E700107D2B /* WBStatusCell.swift */,
+				1CF008BB1F162D9E00107D2B /* WBStatusPictureView.swift */,
+				1CF0089B1F1613CA00107D2B /* WBStatusToolbar.swift */,
+				1CF008911F14E71700107D2B /* WBStatusNormalCell.xib */,
+				1CF008BF1F17689F00107D2B /* WBStatusRetweedCell.xib */,
+			);
+			path = StatusCell;
+			sourceTree = "<group>";
+		};
+		1CF008C11F189D9700107D2B /* CZRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1CF008C21F189DB000107D2B /* CZRefreshControl.swift */,
+				1CF008C61F18B77300107D2B /* CZRefreshView.swift */,
+				1CF008C41F18B53300107D2B /* CZRefreshView.xib */,
+				1CF008CA1F1C4E2500107D2B /* CZMeituanRefreshView.swift */,
+				1CF008C81F1C4C3F00107D2B /* CZMeituanRefresh.xib */,
+			);
+			path = CZRefresh;
+			sourceTree = "<group>";
+		};
+		1CF008CC1F1C64E700107D2B /* Compose(撰写微博) */ = {
+			isa = PBXGroup;
+			children = (
+				1CF008CD1F1C651700107D2B /* ComposeType */,
+			);
+			name = "Compose(撰写微博)";
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		1CF008CD1F1C651700107D2B /* ComposeType */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E978A1F1F49F80043278A /* SkillsViewController(示例代码) */,
+				1CF008CE1F1C657B00107D2B /* WBComposeTypeView.swift */,
+				1CF008D01F1C6A0C00107D2B /* WBComposeTypeView.xib */,
+				1CF008D21F1C7F4000107D2B /* WBComposeTypeButton.swift */,
+				1CF008D41F1C7F7300107D2B /* WBComposeTypeButton.xib */,
+				1CF008D61F1CB19200107D2B /* WBComposeViewController.swift */,
+				1C9E979B1F1F52980043278A /* WBComposeViewController.xib */,
+				1C9E97A11F2043AB0043278A /* WBComposeTextView.swift */,
+			);
+			path = ComposeType;
+			sourceTree = "<group>";
+		};
+		1CFBC7361F25D656001CF0E1 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBC7371F25D684001CF0E1 /* CZSQLiteManager.swift */,
+				1CFBC7381F25D684001CF0E1 /* status.sql */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		F05578ADF3D477138F95CF86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				316313D90EE94BC3DDD9BF22 /* Pods-练手微博.debug.xcconfig */,
+				FA64D680B7DDCBABAF6BEA8F /* Pods-练手微博.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C37F1F41F025AAB008F073B /* 练手微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C37F2071F025AAB008F073B /* Build configuration list for PBXNativeTarget "练手微博" */;
+			buildPhases = (
+				755B0E951FF0E2062CE38E97 /* [CP] Check Pods Manifest.lock */,
+				1C37F1F11F025AAB008F073B /* Sources */,
+				1C37F1F21F025AAB008F073B /* Frameworks */,
+				1C37F1F31F025AAB008F073B /* Resources */,
+				05D204AED6AAAFBB17929854 /* [CP] Embed Pods Frameworks */,
+				43114FAC3D7E9899632F5633 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "练手微博";
+			productName = "练手微博";
+			productReference = 1C37F1F51F025AAB008F073B /* 练手微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C37F1ED1F025AAB008F073B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WB;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ChickenMaster;
+				TargetAttributes = {
+					1C37F1F41F025AAB008F073B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DPG7R2T6WP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1C37F1F01F025AAB008F073B /* Build configuration list for PBXProject "练手微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C37F1EC1F025AAB008F073B;
+			productRefGroup = 1C37F1F61F025AAB008F073B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C37F1F41F025AAB008F073B /* 练手微博 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C37F1F31F025AAB008F073B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF008C51F18B53300107D2B /* CZRefreshView.xib in Resources */,
+				1CFBC73C1F25D923001CF0E1 /* SDImage清理缓存图解.png in Resources */,
+				1C9E97A01F1F62040043278A /* 使用 TextView 的技巧.png in Resources */,
+				1C37F2001F025AAB008F073B /* Assets.xcassets in Resources */,
+				1CF0087A1F0F5C4300107D2B /* 关于 OC 中 URL 可以怎么获取元素.png in Resources */,
+				1CF008891F14628E00107D2B /* WBNewFeatureView.xib in Resources */,
+				1CE3F2001F21CA2100D332AA /* Swift Unicode 码转换成 emoji.png in Resources */,
+				1CF008D11F1C6A0C00107D2B /* WBComposeTypeView.xib in Resources */,
+				1CFBC7331F25C056001CF0E1 /* 数据访问层.png in Resources */,
+				1CE3F2061F21DF1100D332AA /* WBKeyBoardTestViewController.xib in Resources */,
+				1CFBC73E1F25DB5D001CF0E1 /* 数据库新增时间字段.png in Resources */,
+				1C9E97941F1F4A530043278A /* WBWordViewController.xib in Resources */,
+				1C9A1F1E1F219AA900D5265F /* 代码拉伸图片.png in Resources */,
+				1CF008C91F1C4C3F00107D2B /* CZMeituanRefresh.xib in Resources */,
+				1CF008C01F17689F00107D2B /* WBStatusRetweedCell.xib in Resources */,
+				1CF008D51F1C7F7300107D2B /* WBComposeTypeButton.xib in Resources */,
+				1C7272141F28403C00566A85 /* HMEmoticon.bundle in Resources */,
+				1CF008871F1382E400107D2B /* WBWelcomeView.xib in Resources */,
+				1CF008921F14E71700107D2B /* WBStatusNormalCell.xib in Resources */,
+				1CC00C1A1F0CDAC9003E75F7 /* main.json in Resources */,
+				1C9E97A41F204AC30043278A /* 如何在 XIB 上设置代理.png in Resources */,
+				1C9E97921F1F4A530043278A /* WBTextKitViewController.xib in Resources */,
+				1CFBC73A1F25D684001CF0E1 /* status.sql in Resources */,
+				1C192E8F1F2598E800377F99 /* FMDB 框架结构图.png in Resources */,
+				1CFBC7401F25DCDA001CF0E1 /* 关于数据库的删除操作习惯.png in Resources */,
+				1CE3F20E1F2592B300D332AA /* SQLite 插入语法.png in Resources */,
+				1CF0088B1F14A76F00107D2B /* 模拟器中常用的性能测试工具.png in Resources */,
+				1C9A1F1B1F21901300D5265F /* CZEmoticonInputView.xib in Resources */,
+				1C9E979F1F1F62040043278A /* 使用 XIB 创建小控件技巧.png in Resources */,
+				1C37F24B1F026A97008F073B /* 创建桥接文件.jpeg in Resources */,
+				1CE3F2021F21CA8600D332AA /* OC Unicode 码转换成 emoji.png in Resources */,
+				1CFBC7441F25E61D001CF0E1 /* SQLite数据库的特点.png in Resources */,
+				1CFBC74C1F25F6AE001CF0E1 /* 什么是数据适合做缓存,什么数据不适合做缓存.png in Resources */,
+				1CF008721F0E26E400107D2B /* 学习网站.png in Resources */,
+				1C9E97451F1E1D9B0043278A /* 关于 TextKit介绍.png in Resources */,
+				1C9E979C1F1F52980043278A /* WBComposeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D204AED6AAAFBB17929854 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-练手微博/Pods-练手微博-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43114FAC3D7E9899632F5633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-练手微博/Pods-练手微博-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		755B0E951FF0E2062CE38E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C37F1F11F025AAB008F073B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF0086E1F0E0ADC00107D2B /* WBStatusModel.swift in Sources */,
+				1CF008961F15E7CF00107D2B /* WBStatusViewModel.swift in Sources */,
+				1CFBC7351F25C0AE001CF0E1 /* WBStatusListDAL.swift in Sources */,
+				1C37F2431F026841008F073B /* UIColor+CZAddition.m in Sources */,
+				1C37F24E1F03464C008F073B /* Bundle+Extension.swift in Sources */,
+				1CA67E9D1F0C86BA007E6BDF /* WBVisitorView.swift in Sources */,
+				1CF0087D1F0F66FA00107D2B /* WBUserAccountModel.swift in Sources */,
+				1CF008801F1351BF00107D2B /* WBTitleButton.swift in Sources */,
+				1CF008831F13636B00107D2B /* WBWelcomeView.swift in Sources */,
+				1C7272241F285E1600566A85 /* HMPhotoViewerController.m in Sources */,
+				1C37F23C1F026841008F073B /* NSArray+Log.m in Sources */,
+				1C37F2191F0264FD008F073B /* WBBaseViewController.swift in Sources */,
+				1C37F2441F026841008F073B /* UILabel+CZAddition.m in Sources */,
+				1C37F23D1F026841008F073B /* NSAttributedString+CZAdditon.m in Sources */,
+				1C37F2471F026841008F073B /* UIViewController+CZAddition.m in Sources */,
+				1CE3F2081F21F0FE00D332AA /* CZEmotiocnAttachment.swift in Sources */,
+				1C7272201F285E1600566A85 /* HMPhotoBrowserAnimator.m in Sources */,
+				1CF008981F15FF6F00107D2B /* UIImageView+WebImage.swift in Sources */,
+				1C37F23F1F026841008F073B /* NSString+CZBase64.m in Sources */,
+				1CF008851F13689500107D2B /* WBNewFeatureView.swift in Sources */,
+				1CA67E621F0A1531007E6BDF /* WBDemoViewController.swift in Sources */,
+				1CF008941F15D3F300107D2B /* WBUser.swift in Sources */,
+				1C9A1F1A1F21901300D5265F /* CZEmoticonInputView.swift in Sources */,
+				1CF008D31F1C7F4000107D2B /* WBComposeTypeButton.swift in Sources */,
+				1C9E974E1F1F26210043278A /* FFLabel.swift in Sources */,
+				1C9E97961F1F4ABE0043278A /* WBRegularExpressionViewController.swift in Sources */,
+				1CA67E641F0A1CAF007E6BDF /* UIBarButtonItem+Extension.swift in Sources */,
+				1CFBC7421F25DF14001CF0E1 /* Date+Extensions.swift in Sources */,
+				1C37F2211F026697008F073B /* WBProfileViewController.swift in Sources */,
+				1C7272231F285E1600566A85 /* HMPhotoProgressView.m in Sources */,
+				1C9E97931F1F4A530043278A /* WBWordViewController.swift in Sources */,
+				1C37F21F1F02668C008F073B /* WBDiscoverViewController.swift in Sources */,
+				1CF008681F0DDE1000107D2B /* WBNetworkManager.swift in Sources */,
+				1CF0086A1F0DEA7100107D2B /* WBNetworkManager+Extension.swift in Sources */,
+				1CE3F1F61F21A02800D332AA /* CZEmoticonCell.swift in Sources */,
+				1C37F2151F02648E008F073B /* WBMainViewController.swift in Sources */,
+				1CE3F2051F21DF1100D332AA /* WBKeyBoardTestViewController.swift in Sources */,
+				1CF008CF1F1C657B00107D2B /* WBComposeTypeView.swift in Sources */,
+				1CF0089C1F1613CA00107D2B /* WBStatusToolbar.swift in Sources */,
+				1CF008C71F18B77300107D2B /* CZRefreshView.swift in Sources */,
+				1C37F2421F026841008F073B /* UIButton+CZAddition.m in Sources */,
+				1C9E97501F1F329E0043278A /* WBWebViewController.swift in Sources */,
+				1CF008D91F1DB1A100107D2B /* String+Extension.swift in Sources */,
+				1CF008901F14E6E700107D2B /* WBStatusCell.swift in Sources */,
+				1C37F2451F026841008F073B /* UIScreen+CZAddition.m in Sources */,
+				1CF008701F0E101C00107D2B /* WBStatusListViewModel.swift in Sources */,
+				1CD0010D1F1DE64E003FB84D /* CZEmoticon.swift in Sources */,
+				1C37F21B1F02665F008F073B /* WBHomeViewController.swift in Sources */,
+				1C7272211F285E1600566A85 /* HMPhotoBrowserController.m in Sources */,
+				1C37F23E1F026841008F073B /* NSObject+CZRuntime.m in Sources */,
+				1CF008751F0F28F100107D2B /* WeiBoCommon.swift in Sources */,
+				1C9E97A21F2043AB0043278A /* WBComposeTextView.swift in Sources */,
+				1C37F1F91F025AAB008F073B /* AppDelegate.swift in Sources */,
+				1CF008C31F189DB000107D2B /* CZRefreshControl.swift in Sources */,
+				1CE3F1FC1F21A4A800D332AA /* CZEmoticonLayout.swift in Sources */,
+				1CFBC7391F25D684001CF0E1 /* CZSQLiteManager.swift in Sources */,
+				1C37F2171F0264D6008F073B /* WBNavigationController.swift in Sources */,
+				1CF008D71F1CB19200107D2B /* WBComposeViewController.swift in Sources */,
+				1C37F2411F026841008F073B /* NSString+CZPath.m in Sources */,
+				1CD0010F1F1DE7ED003FB84D /* CZEmoticonPackage.swift in Sources */,
+				1CF008BE1F16333D00107D2B /* WBStatusPicture.swift in Sources */,
+				1CF008CB1F1C4E2500107D2B /* CZMeituanRefreshView.swift in Sources */,
+				1C37F2461F026841008F073B /* UIView+CZAddition.m in Sources */,
+				1CF008781F0F2B8100107D2B /* WBOAuthViewController.swift in Sources */,
+				1CF0089A1F16032E00107D2B /* UIImage+Extensions.swift in Sources */,
+				1CFBC74E1F25F99A001CF0E1 /* CZEmotiocnTipView.swift in Sources */,
+				1CD001081F1DE05E003FB84D /* CZEmoticonManager.swift in Sources */,
+				1C7272221F285E1600566A85 /* HMPhotoBrowserPhotos.m in Sources */,
+				1CF008BC1F162D9E00107D2B /* WBStatusPictureView.swift in Sources */,
+				1C37F2401F026841008F073B /* NSString+CZHash.m in Sources */,
+				1C9A1F1C1F21901300D5265F /* CZEmoticonToolBar.swift in Sources */,
+				1C9E97911F1F4A530043278A /* WBTextKitViewController.swift in Sources */,
+				1C37F21D1F02667B008F073B /* WBMessageViewController.swift in Sources */,
+				1C9E97901F1F4A530043278A /* CZLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C37F2051F025AAB008F073B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C37F2061F025AAB008F073B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C37F2081F025AAB008F073B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316313D90EE94BC3DDD9BF22 /* Pods-练手微博.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DPG7R2T6WP;
+				INFOPLIST_FILE = "练手微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuency.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "练手微博/Weibo-Bridge.h";
+				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		1C37F2091F025AAB008F073B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA64D680B7DDCBABAF6BEA8F /* Pods-练手微博.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DPG7R2T6WP;
+				INFOPLIST_FILE = "练手微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuency.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "练手微博/Weibo-Bridge.h";
+				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C37F1F01F025AAB008F073B /* Build configuration list for PBXProject "练手微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C37F2051F025AAB008F073B /* Debug */,
+				1C37F2061F025AAB008F073B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C37F2071F025AAB008F073B /* Build configuration list for PBXNativeTarget "练手微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C37F2081F025AAB008F073B /* Debug */,
+				1C37F2091F025AAB008F073B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C37F1ED1F025AAB008F073B /* Project object */;
+}

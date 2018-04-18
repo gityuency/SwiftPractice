@@ -1,0 +1,16 @@
+
+platform :ios, '8.0'
+
+target '练手微博' do
+
+#使用Swift需要打开下面这个东西,默认就打开了
+use_frameworks!
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'YYModel'
+pod 'FMDB'
+pod 'SVProgressHUD'
+pod 'pop'
+
+end
